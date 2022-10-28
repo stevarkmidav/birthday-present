@@ -1,0 +1,36 @@
+.about {
+    max-width: 70%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    &__img {
+        display: flex;
+        align-items: center;
+        img {
+            width: 450px;
+            height: 450px;
+            border-radius: 100%;
+            object-fit:cover;
+            object-position: 10% 0px;
+        }
+    }
+    &__text {
+        max-width: 500px;
+        color: #545997;
+    }
+    &__header {
+        font-size: 54px;
+        line-height: 1.2em;
+        letter-spacing: 4px;
+        font-weight: 400;
+    }
+    &__descr {
+        font-size: 14px;
+        line-height: 1.75em;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 15px;
+    }
+}

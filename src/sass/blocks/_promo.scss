@@ -1,0 +1,25 @@
+.promo {
+    margin-top: 30px;
+    min-height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0,0,0,0)), url('../../img/backgrounds/promo-background.webp') center (bottom/cover) no-repeat;
+    text-align: center;
+    &__header {
+        padding-top: 240px;
+        font-size: 60px;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        font-weight: 500;
+        color: #545997;
+        margin: 0;
+    }
+    &__subheader {
+        padding-top: 10px;
+        font-size: 21px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: 500;
+        color: #545997;
+        margin-top: 10px;
+    }
+}

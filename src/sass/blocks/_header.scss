@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    padding: 0 35px;
+    background: url('../../img/backgrounds/header-background.webp') center (center/cover) no-repeat;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.header {
+    padding: 15px 0;
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__list {
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 300px;
+    }
+    &__item {
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__link {
+        letter-spacing: 2.5px;
+        color: #545997;
+        &:hover {
+            text-decoration: none;
+            color: #8C679E;
+            transition: 0.1s all;
+        }
+    }
+    &__logo {
+        height: 140px;
+        width: 140px;
+    }
+    
+}
